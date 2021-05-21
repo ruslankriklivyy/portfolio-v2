@@ -37,5 +37,12 @@
     line-height: 1.4;
     margin-bottom: 50px;
     width: 70%;
+    a {
+      color: #64ffda;
+      margin: 0 2px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }

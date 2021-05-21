@@ -21,10 +21,10 @@ function App() {
     <>
       <div className="social">
         <nav>
-          <a href="/">
+          <a href="https://github.com/ruslankrilkivyy">
             <img src={githubSvg} alt="githubSvg" />
           </a>
-          <a href="/">
+          <a href="https://www.instagram.com/_ruslan.kriklivyy/?hl=ru">
             <img src={instagramSvg} alt="instagramSvg" />
           </a>
           <a href="/">
@@ -37,7 +37,7 @@ function App() {
           <div className="container container--header">
             <div className="header__inner">
               <div className="header__logo">
-                <Link to={'promo'} duration={400}>
+                <Link to={'promo'} smooth={true} duration={400}>
                   R
                 </Link>
               </div>
@@ -58,7 +58,9 @@ function App() {
                     ))}
                   </ul>
                 </nav>
-                <Button>Resume</Button>
+                <Button>
+                  <a href="https://www.work.ua/ru/jobseeker/my/resumes/view/?id=6985575">Resume</a>
+                </Button>
               </div>
             </div>
           </div>
@@ -72,11 +74,18 @@ function App() {
                 <h1 className="promo__title">Ruslan Kriklivyy.</h1>
                 <h4 className="promo__subtitle">I build things for the web.</h4>
                 <p className="promo__text">
-                  I'm a Boston-based software engineer who specializes in building (and occasionally
-                  designing) exceptional digital experiences. Currently, I'm an engineer at
-                  Upstatement focused on building accessible, human-centered products.
+                  I like to create web interfaces with React and Vue. In the future, I want to
+                  become a full stack developer. If you are interested in me, take a look at
+                  examples of
+                  <Link to={'works'} smooth={true} offset={-150} duration={400}>
+                    <a href="/">my work.</a>
+                  </Link>
+                  <br></br> <br></br> If you have job offers then link to my email below, or you can
+                  write to me in other social networks (they are on the left).
                 </p>
-                <Button>Get In Touch</Button>
+                <Button>
+                  <a href="mailto:ruslankriklivyy@gmail.com">Get In Touch</a>
+                </Button>
               </div>
             </div>
           </div>
@@ -93,12 +102,12 @@ function App() {
             <div className="about__box">
               <div className="about__left">
                 <p className="text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse doloremque
-                  accusamus dignissimos cumque, ratione unde amet nesciunt dicta tenetur, minus quis
-                  eos, voluptates corrupti. Dolor sed distinctio culpa explicabo. Laboriosam
-                  cupiditate voluptas rem debitis, quis quae pariatur hic cum, iure blanditiis
-                  molestias magni deleniti vel veniam officiis laudantium in dignissimos harum? Nam
-                  magnam esse suscipit hic autem voluptas animi!
+                  I'm just a regular Internet guy. I want to develop as a developer, not only in
+                  frontend, but also for example to try myself as a as a mobile app developer or try
+                  to make native apps for PC. <br></br> <br></br> My interests: development, games,
+                  movies, music. <br></br> <br></br> Experience: Worked as HTML/CSS coder at Sladko
+                  Digital, also had a few freelance jobs. <br></br> If you made it here, thanks for
+                  your interest!
                 </p>
               </div>
               <div className="about__right">
@@ -159,7 +168,7 @@ function App() {
               </div>
             </div>
             <div className="works__box">
-              <a href="/" className="works__item">
+              <a href="https://react-watch-movies.vercel.app/" className="works__item">
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>
                   <img src={watchMoviesPng} alt="watchMoviesPng" />
@@ -168,9 +177,8 @@ function App() {
                   <h2>Watch Movies!</h2>
                   <div className="works__more-info">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ipsa?
-                      Consequatur, asperiores praesentium exercitationem quod adipisci voluptate
-                      reprehenderit blanditiis
+                      You can search for movies, filter by genre and other types. You can also view
+                      information about the movie, such as the trailer, or read the description.
                     </p>
                   </div>
                   <div className="works__tech">
@@ -180,23 +188,26 @@ function App() {
                     <div className="works__tech-item">TMDB API</div>
                   </div>
                   <div className="works__links">
-                    <a href="/">
+                    <a href="https://github.com/ruslankrilkivyy/react-watch-movies">
                       <img src={githubSvg} alt="githubSvg" />
                     </a>
-                    <a href="/">
+                    <a href="https://react-watch-movies.vercel.app/">
                       <img src={linkSvg} alt="linkSvg" />
                     </a>
                   </div>
                 </div>
               </a>
-              <a href="/" className="works__item works__item--reverse">
+              <a
+                href="https://react-clothing-store.vercel.app/"
+                className="works__item works__item--reverse">
                 <div className="works__info">
                   <h2>Clothing Store</h2>
                   <div className="works__more-info">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ipsa?
-                      Consequatur, asperiores praesentium exercitationem quod adipisci voluptate
-                      reprehenderit blanditiis
+                      I was inspired by the site of the famous blogger Itpedia, and decided to make
+                      his clothing store site in React and TypeScript. Here you can browse products,
+                      add to cart, change the size of clothes or the number of clothes added, and
+                      much more.
                     </p>
                   </div>
                   <div className="works__tech">
@@ -207,10 +218,10 @@ function App() {
                     <div className="works__tech-item">Redux / Redux Thunk</div>
                   </div>
                   <div className="works__links">
-                    <a href="/">
+                    <a href="https://github.com/ruslankrilkivyy/react-clothing-store">
                       <img src={githubSvg} alt="githubSvg" />
                     </a>
-                    <a href="/">
+                    <a href="https://react-clothing-store.vercel.app/">
                       <img src={linkSvg} alt="linkSvg" />
                     </a>
                   </div>
@@ -220,7 +231,7 @@ function App() {
                   <img src={clothingStorePng} alt="clothingStorePng" />
                 </div>
               </a>
-              <a href="/" className="works__item">
+              <a href="https://react-food.vercel.app/" className="works__item">
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>
                   <img src={reactFoodPng} alt="reactFoodPng" />
@@ -229,9 +240,8 @@ function App() {
                   <h2>DeliveryFood</h2>
                   <div className="works__more-info">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ipsa?
-                      Consequatur, asperiores praesentium exercitationem quod adipisci voluptate
-                      reprehenderit blanditiis
+                      This was my first experience using MobX, here you can add the food of your
+                      choice to the basket, as well as change the quantity, etc.
                     </p>
                   </div>
                   <div className="works__tech">
@@ -240,23 +250,25 @@ function App() {
                     <div className="works__tech-item">Mobx / react-mobx-lite</div>
                   </div>
                   <div className="works__links">
-                    <a href="/">
+                    <a href="https://github.com/ruslankrilkivyy/react-food">
                       <img src={githubSvg} alt="githubSvg" />
                     </a>
-                    <a href="/">
+                    <a href="https://react-food.vercel.app/">
                       <img src={linkSvg} alt="linkSvg" />
                     </a>
                   </div>
                 </div>
               </a>
-              <a href="/" className="works__item works__item--reverse">
+              <a
+                href="https://react-games-taupe.vercel.app/"
+                className="works__item works__item--reverse">
                 <div className="works__info">
                   <h2>Games!</h2>
                   <div className="works__more-info">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ipsa?
-                      Consequatur, asperiores praesentium exercitationem quod adipisci voluptate
-                      reprehenderit blanditiis
+                      This was my first experience using Redux Saga, in this project I relayed the
+                      registration through Google and Githab. Here you can view information about
+                      any game, add desired games and see what stores are available for the game
                     </p>
                   </div>
                   <div className="works__tech">
@@ -267,10 +279,10 @@ function App() {
                     <div className="works__tech-item">RAWG API</div>
                   </div>
                   <div className="works__links">
-                    <a href="/">
+                    <a href="https://github.com/ruslankrilkivyy/react-games">
                       <img src={githubSvg} alt="githubSvg" />
                     </a>
-                    <a href="/">
+                    <a href="https://react-games-taupe.vercel.app/">
                       <img src={linkSvg} alt="linkSvg" />
                     </a>
                   </div>
@@ -280,7 +292,7 @@ function App() {
                   <img src={reactGamesPng} alt="reactGamesPng" />
                 </div>
               </a>
-              <a href="/" className="works__item">
+              <a href="https://next-movies-tau.vercel.app/" className="works__item">
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>
                   <img src={nextMoviesPng} alt="nextMoviesPng" />
@@ -289,9 +301,8 @@ function App() {
                   <h2>Next Movies!</h2>
                   <div className="works__more-info">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ipsa?
-                      Consequatur, asperiores praesentium exercitationem quod adipisci voluptate
-                      reprehenderit blanditiis
+                      In this project I implemented SSR on React, the same WatchMovies, only using a
+                      cool technology called NextJS
                     </p>
                   </div>
                   <div className="works__tech">
@@ -302,23 +313,24 @@ function App() {
                     <div className="works__tech-item">TMDB API</div>
                   </div>
                   <div className="works__links">
-                    <a href="/">
+                    <a href="https://github.com/ruslankrilkivyy/next-movies">
                       <img src={githubSvg} alt="githubSvg" />
                     </a>
-                    <a href="/">
+                    <a href="https://next-movies-tau.vercel.app/">
                       <img src={linkSvg} alt="linkSvg" />
                     </a>
                   </div>
                 </div>
               </a>
-              <a href="/" className="works__item works__item--reverse">
+              <a
+                href="https://react-anime-xi.vercel.app/"
+                className="works__item works__item--reverse">
                 <div className="works__info">
                   <h2>AnimeList</h2>
                   <div className="works__more-info">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ipsa?
-                      Consequatur, asperiores praesentium exercitationem quod adipisci voluptate
-                      reprehenderit blanditiis
+                      In this project you can view all information about anime, you can add anime to
+                      several different types, such as add to watch later, etc.
                     </p>
                   </div>
                   <div className="works__tech">
@@ -330,10 +342,10 @@ function App() {
                     <div className="works__tech-item">Kitsu API</div>
                   </div>
                   <div className="works__links">
-                    <a href="/">
+                    <a href="https://github.com/ruslankrilkivyy/react-anime">
                       <img src={githubSvg} alt="githubSvg" />
                     </a>
-                    <a href="/">
+                    <a href="https://react-anime-xi.vercel.app/">
                       <img src={linkSvg} alt="linkSvg" />
                     </a>
                   </div>

@@ -1,0 +1,41 @@
+.promo {
+  padding-top: 80px;
+  height: 100vh;
+
+  &__wrapper {
+    position: relative;
+    height: 90vh;
+  }
+  &__box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 70%;
+  }
+  &__suptitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #64ffda;
+    font-family: 'Source Code Pro', monospace;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 60px;
+    opacity: 0.8;
+    margin: 25px 0;
+  }
+  &__subtitle {
+    font-weight: 700;
+    font-size: 60px;
+    opacity: 0.6;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+  &__text {
+    opacity: 0.6;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    width: 70%;
+  }
+}

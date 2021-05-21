@@ -1,0 +1,40 @@
+.skills {
+  height: 80vh;
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  &__more {
+    text-align: center;
+    margin-top: 40px;
+    opacity: 0.7;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  &__item {
+    width: 46%;
+    border: 2px solid #64ffda;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.2s ease;
+    &:hover {
+      outline: 2px dashed #64ffda;
+      border-color: transparent;
+      background: rgba($color: #64ffda, $alpha: 0.1);
+    }
+    h2 {
+      font-weight: 600;
+      font-size: 26px;
+      opacity: 0.8;
+      margin-bottom: 20px;
+    }
+    &-info {
+      font-weight: 500;
+      margin-bottom: 10px;
+      color: #64ffda;
+      font-size: 18px;
+    }
+  }
+}

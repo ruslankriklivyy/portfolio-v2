@@ -4,6 +4,9 @@ import instagramSvg from './assets/instagram.svg';
 import linkedinSvg from './assets/linkedin.svg';
 import imJpg from './assets/im.jpg';
 import linkSvg from './assets/link.svg';
+import promoGif from './assets/promo.gif';
+import menuSvg from './assets/menu.svg';
+import closeSvg from './assets/close.svg';
 
 import watchMoviesPng from './assets/watchmovies.png';
 import clothingStorePng from './assets/react-clothing-store.png';
@@ -13,10 +16,33 @@ import nextMoviesPng from './assets/nextMovies.png';
 import reactAnimePng from './assets/react-animlist.png';
 
 import { Link } from 'react-scroll';
+import React from 'react';
 
 const menuitems = ['About', 'Skills', 'Works', 'Contact'];
 
 function App() {
+  const [visibleMenu, setVisibleMenu] = React.useState(false);
+
+  const onClose = React.useCallback(() => {
+    setVisibleMenu(false);
+  }, []);
+
+  const escapeListener = React.useCallback(
+    (e) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    },
+    [onClose],
+  );
+
+  React.useEffect(() => {
+    document.addEventListener('keyup', escapeListener);
+    return () => {
+      document.removeEventListener('keyup', escapeListener);
+    };
+  }, [escapeListener]);
+
   return (
     <>
       <div className="social">
@@ -37,10 +63,40 @@ function App() {
           <div className="container container--header">
             <div className="header__inner">
               <div className="header__logo">
-                <Link to={'promo'} smooth={true} duration={400}>
+                <Link to={'promo'} smooth={true} duration={400} onClick={() => onClose()}>
                   R
                 </Link>
               </div>
+              <button className="burger-menu" onClick={() => setVisibleMenu(true)}>
+                <img src={menuSvg} alt="menuSvg" />
+              </button>
+              {visibleMenu && (
+                <div className="header__right header__right--menu">
+                  <button className="close-menu" onClick={() => onClose()}>
+                    <img src={closeSvg} alt="closeSvg" />
+                  </button>
+                  <nav className="nav">
+                    <ul className="menu">
+                      {menuitems.map((item, index) => (
+                        <li className="menu__item" key={index}>
+                          <Link
+                            to={item.toLowerCase()}
+                            smooth={true}
+                            offset={-150}
+                            duration={400}
+                            onClick={() => onClose()}
+                            className="menu__item-link">
+                            <span>0{index + 1}.</span> {item}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </nav>
+                  <Button href="https://www.work.ua/ru/jobseeker/my/resumes/view/?id=6985575">
+                    Resume
+                  </Button>
+                </div>
+              )}
               <div className="header__right">
                 <nav className="nav">
                   <ul className="menu">
@@ -58,8 +114,8 @@ function App() {
                     ))}
                   </ul>
                 </nav>
-                <Button>
-                  <a href="https://www.work.ua/ru/jobseeker/my/resumes/view/?id=6985575">Resume</a>
+                <Button href="https://www.work.ua/ru/jobseeker/my/resumes/view/?id=6985575">
+                  Resume
                 </Button>
               </div>
             </div>
@@ -83,9 +139,7 @@ function App() {
                   <br></br> <br></br> If you have job offers then link to my email below, or you can
                   write to me in other social networks (they are on the left).
                 </p>
-                <Button>
-                  <a href="mailto:ruslankriklivyy@gmail.com">Get In Touch</a>
-                </Button>
+                <Button href="mailto:ruslankriklivyy@gmail.com">Get In Touch</Button>
               </div>
             </div>
           </div>
@@ -106,8 +160,8 @@ function App() {
                   frontend, but also for example to try myself as a as a mobile app developer or try
                   to make native apps for PC. <br></br> <br></br> My interests: development, games,
                   movies, music. <br></br> <br></br> Experience: Worked as HTML/CSS coder at Sladko
-                  Digital, also had a few freelance jobs. <br></br> If you made it here, thanks for
-                  your interest!
+                  Digital, also had a few freelance jobs. <br></br>
+                  <br></br> If you made it here, thanks for your interest!
                 </p>
               </div>
               <div className="about__right">

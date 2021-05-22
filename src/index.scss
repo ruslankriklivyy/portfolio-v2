@@ -86,6 +86,7 @@ section {
   position: fixed;
   bottom: 10px;
   left: 3%;
+  z-index: 200;
   nav {
     a {
       display: block;
@@ -107,6 +108,17 @@ section {
         height: 20px;
       }
     }
+  }
+}
+
+.burger-menu {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  img {
+    width: 36px;
+    height: 36px;
   }
 }
 
@@ -263,4 +275,257 @@ table {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+html {
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+@media (max-width: 1600px) {
+  .promo {
+    box-shadow: inset 0 -100px 400px 320px rgba(10, 25, 47, 1);
+  }
+  .about {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .promo {
+    box-shadow: inset 0 -100px 400px 350px rgba(10, 25, 47, 1);
+  }
+}
+
+@media (max-width: 1200px) {
+  .about {
+    padding: 50px 0;
+    height: 100%;
+  }
+  .skills {
+    padding: 50px 0;
+    height: 100%;
+  }
+  .promo {
+    box-shadow: inset 0 -220px 400px 320px rgba(10, 25, 47, 1);
+    &__box {
+      text-align: center;
+      width: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &__text {
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+  }
+  .inner {
+    text-align: center;
+    .title {
+      justify-content: center;
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .works {
+    &__item {
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      &--reverse {
+        flex-direction: column-reverse;
+      }
+    }
+    &__img {
+      img {
+        width: 70%;
+      }
+    }
+    &__info {
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    width: 90%;
+  }
+}
+
+@media (max-width: 779px) {
+  .burger-menu {
+    display: block;
+  }
+  .works {
+    &__img {
+      img {
+        width: 100%;
+      }
+    }
+    &__info {
+      width: 100%;
+    }
+  }
+  .header {
+    &__right {
+      display: none;
+    }
+    &__right--menu {
+      display: flex !important;
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      right: 0;
+      z-index: 500;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      background: #0a192f;
+      padding: 20px;
+      .close-menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 600;
+        background: transparent;
+        cursor: pointer;
+        border: none;
+        opacity: 0.8;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      .btn {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+      }
+      nav {
+        ul {
+          flex-direction: column;
+          li {
+            a {
+              margin-bottom: 40px;
+              margin-right: 0 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .promo {
+    &__title {
+      font-size: 50px;
+    }
+    &__subtitle {
+      font-size: 50px;
+    }
+  }
+  .skills {
+    &__box {
+      justify-content: center;
+      flex-direction: column;
+    }
+    &__item {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+  }
+  .about {
+    width: 90%;
+    &__right {
+      margin: 0 auto;
+    }
+    &__left {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+    &__box {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+@media (max-width: 579px) {
+  .contact__bottom p {
+    font-size: 18px;
+  }
+  .contact__bottom span {
+    font-size: 16px;
+  }
+  .header {
+    &__logo {
+      z-index: 600;
+    }
+  }
+  .header__right {
+    width: 100%;
+  }
+  .works {
+    &__tech {
+      flex-wrap: wrap;
+      line-height: 1.3;
+    }
+  }
+  .about {
+    &__left {
+      width: 100%;
+    }
+    &__right {
+      img {
+        width: 280px;
+        height: 300px;
+      }
+    }
+  }
+  .skills {
+    &__item {
+      width: 100%;
+    }
+    &__more {
+      margin-top: 10px;
+    }
+  }
+  .promo {
+    box-shadow: inset 0 -100px 400px 140px rgba(10, 25, 47, 1);
+    &__title {
+      font-size: 40px;
+      margin: 15px 0;
+    }
+    &__subtitle {
+      font-size: 40px;
+    }
+    &__text {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 379px) {
+  .about__right {
+    img {
+      width: 260px;
+      height: 280px;
+    }
+  }
+  .about__img-box:after {
+    right: -10px;
+    bottom: -10px;
+    &:focus {
+      right: -2px;
+      bottom: -2px;
+    }
+  }
 }

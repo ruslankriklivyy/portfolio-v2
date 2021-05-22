@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Button = ({ children }) => {
+const Button = ({ children, href }) => {
   return (
-    <a href="/" className="btn">
+    <a href={href} className="btn">
       {children}
     </a>
   );

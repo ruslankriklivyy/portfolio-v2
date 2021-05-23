@@ -1,7 +1,7 @@
 import Button from './components/Button';
 import githubSvg from './assets/github.svg';
 import instagramSvg from './assets/instagram.svg';
-import linkedinSvg from './assets/linkedin.svg';
+import telegramSvg from './assets/telegram.svg';
 import imJpg from './assets/im.jpg';
 import linkSvg from './assets/link.svg';
 import promoGif from './assets/promo.gif';
@@ -53,8 +53,8 @@ function App() {
           <a href="https://www.instagram.com/_ruslan.kriklivyy/?hl=ru">
             <img src={instagramSvg} alt="instagramSvg" />
           </a>
-          <a href="/">
-            <img src={linkedinSvg} alt="linkedinSvg" />
+          <a href="https://t.me/ruslankriklivy">
+            <img src={telegramSvg} alt="linkedinSvg" />
           </a>
         </nav>
       </div>
@@ -114,9 +114,7 @@ function App() {
                     ))}
                   </ul>
                 </nav>
-                <Button href="https://www.work.ua/ru/jobseeker/my/resumes/view/?id=6985575">
-                  Resume
-                </Button>
+                <Button href="https://www.work.ua/ru/resumes/6985575/">Resume</Button>
               </div>
             </div>
           </div>

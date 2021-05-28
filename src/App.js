@@ -14,6 +14,7 @@ import reactFoodPng from './assets/react-food.png';
 import reactGamesPng from './assets/react-games.png';
 import nextMoviesPng from './assets/nextMovies.png';
 import reactAnimePng from './assets/react-animlist.png';
+import reactDogPng from './assets/react-dogs.png';
 
 import { Link } from 'react-scroll';
 import React from 'react';
@@ -220,6 +221,38 @@ function App() {
               </div>
             </div>
             <div className="works__box">
+              <a
+                href="https://react-clothing-store.vercel.app/"
+                className="works__item works__item--reverse">
+                <div className="works__info">
+                  <h2>React Dogs</h2>
+                  <div className="works__more-info">
+                    <p>
+                      In this app you can add dog photos to your favorites, sort them by various
+                      data, upload your dog's photo and much more
+                    </p>
+                  </div>
+                  <div className="works__tech">
+                    <div className="works__tech-item">ReactJS</div>
+                    <div className="works__tech-item">TypeScript</div>
+                    <div className="works__tech-item">MobX</div>
+                    <div className="works__tech-item">react-mobx-lite</div>
+                    <div className="works__tech-item">classnames</div>
+                  </div>
+                  <div className="works__links">
+                    <a href="https://github.com/ruslankrilkivyy/react-dogs">
+                      <img src={githubSvg} alt="githubSvg" />
+                    </a>
+                    <a href="https://react-dogs-6ras3pq65-ruslankrilkivyy.vercel.app/">
+                      <img src={linkSvg} alt="linkSvg" />
+                    </a>
+                  </div>
+                </div>
+                <div className="works__img">
+                  <div className="works__img-wrapper"></div>
+                  <img src={reactDogPng} alt="reactDogPng" />
+                </div>
+              </a>
               <a href="https://react-watch-movies.vercel.app/" className="works__item">
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>

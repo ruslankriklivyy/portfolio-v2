@@ -222,7 +222,7 @@ function App() {
             </div>
             <div className="works__box">
               <a
-                href="https://react-clothing-store.vercel.app/"
+                href="https://react-dogs-theta.vercel.app/"
                 className="works__item works__item--reverse">
                 <div className="works__info">
                   <h2>React Dogs</h2>

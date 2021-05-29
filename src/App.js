@@ -243,7 +243,7 @@ function App() {
                     <a href="https://github.com/ruslankrilkivyy/react-dogs">
                       <img src={githubSvg} alt="githubSvg" />
                     </a>
-                    <a href="https://react-dogs-6ras3pq65-ruslankrilkivyy.vercel.app/">
+                    <a href="https://react-dogs-theta.vercel.app/">
                       <img src={linkSvg} alt="linkSvg" />
                     </a>
                   </div>

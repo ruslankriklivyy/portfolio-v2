@@ -129,9 +129,8 @@ function App() {
                 <h1 className="promo__title">Ruslan Kriklivyy.</h1>
                 <h4 className="promo__subtitle">I build things for the web.</h4>
                 <p className="promo__text">
-                  I like to create web interfaces with React and Vue. In the future, I want to
-                  become a full stack developer. If you are interested in me, take a look at
-                  examples of
+                  I like to create web interfaces with React and Vue. If you are interested in me,
+                  take a look at examples of
                   <Link to={'works'} smooth={true} offset={-150} duration={400}>
                     <a href="/">my work.</a>
                   </Link>
@@ -157,9 +156,8 @@ function App() {
                 <p className="text">
                   I'm just a regular Internet guy. I want to develop as a developer, not only in
                   frontend, but also for example to try myself as a as a mobile app developer or try
-                  to make native apps for PC. <br></br> <br></br> My interests: development, games,
-                  movies, music. <br></br> <br></br> Experience: Worked as HTML/CSS coder at Sladko
-                  Digital, also had a few freelance jobs. <br></br>
+                  to make native apps for PC. <br></br> <br></br> Experience: Worked as HTML/CSS
+                  coder at Sladko Digital, also had a few freelance jobs. <br></br>
                   <br></br> If you made it here, thanks for your interest!
                 </p>
               </div>
@@ -193,7 +191,7 @@ function App() {
                 </div>
                 <div className="skills__item-info">Redux Toolkit</div>
                 <div className="skills__item-info">MobX</div>
-                <div className="skills__item-info">React-mobx-lite</div>
+                <div className="skills__item-info">react-mobx-lite</div>
                 <div className="skills__item-info">NextJS</div>
               </div>
               <div className="skills__item">

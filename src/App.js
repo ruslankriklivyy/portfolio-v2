@@ -13,6 +13,7 @@ import clothingStorePng from './assets/react-clothing-store.png';
 import reactFoodPng from './assets/react-food.png';
 import reactGamesPng from './assets/react-games.png';
 import nextMoviesPng from './assets/nextMovies.png';
+import reactChatPng from './assets/reactChat.png';
 import reactAnimePng from './assets/react-animlist.png';
 import reactDogPng from './assets/react-dogs.png';
 
@@ -436,6 +437,36 @@ function App() {
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>
                   <img src={reactAnimePng} alt="reactAnimePng" />
+                </div>
+              </a>
+              <a href="https://react-chat-lite.vercel.app/" className="works__item">
+                <div className="works__img">
+                  <div className="works__img-wrapper"></div>
+                  <img src={reactChatPng} alt="reactChatPng" />
+                </div>
+                <div className="works__info">
+                  <h2>React Chat Lite</h2>
+                  <div className="works__more-info">
+                    <p>
+                      This is a real time chat room made with firebase. You can login via google and
+                      chat in real time
+                    </p>
+                  </div>
+                  <div className="works__tech">
+                    <div className="works__tech-item">ReactJS</div>
+                    <div className="works__tech-item">TypeScript</div>
+                    <div className="works__tech-item">Firebase</div>
+                    <div className="works__tech-item">SCSS Modules</div>
+                    <div className="works__tech-item">React Context</div>
+                  </div>
+                  <div className="works__links">
+                    <a href="https://github.com/ruslankrilkivyy/react-chat-lite">
+                      <img src={githubSvg} alt="githubSvg" />
+                    </a>
+                    <a href="https://react-chat-lite.vercel.app/">
+                      <img src={linkSvg} alt="linkSvg" />
+                    </a>
+                  </div>
                 </div>
               </a>
               <div className="works__soon">I will do another project soon...</div>

@@ -193,6 +193,7 @@ function App() {
                 <div className="skills__item-info">Redux Toolkit</div>
                 <div className="skills__item-info">MobX</div>
                 <div className="skills__item-info">react-mobx-lite</div>
+                <div className="skills__item-info">Formik</div>
                 <div className="skills__item-info">NextJS</div>
               </div>
               <div className="skills__item">

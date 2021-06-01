@@ -197,10 +197,9 @@ function App() {
               </div>
               <div className="skills__item">
                 <h2>Other Skills</h2>
-                <div className="skills__item-info">Github</div>
+                <div className="skills__item-info">Git / Github</div>
                 <div className="skills__item-info">axios</div>
                 <div className="skills__item-info">FireBase</div>
-                <div className="skills__item-info">WebSocket</div>
                 <div className="skills__item-info">React Cookie</div>
                 <div className="skills__item-info">npm / yarn</div>
                 <div className="skills__item-info">JSON</div>

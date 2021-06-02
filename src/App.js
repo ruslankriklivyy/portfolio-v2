@@ -93,6 +93,19 @@ function App() {
                         </li>
                       ))}
                     </ul>
+                    <div className="social">
+                      <nav>
+                        <a href="https://github.com/ruslankrilkivyy">
+                          <img src={githubSvg} alt="githubSvg" />
+                        </a>
+                        <a href="https://www.instagram.com/_ruslan.kriklivyy/?hl=ru">
+                          <img src={instagramSvg} alt="instagramSvg" />
+                        </a>
+                        <a href="https://t.me/ruslankriklivy">
+                          <img src={telegramSvg} alt="linkedinSvg" />
+                        </a>
+                      </nav>
+                    </div>
                   </nav>
                   <Button href="https://www.work.ua/ru/jobseeker/my/resumes/view/?id=6985575">
                     Resume

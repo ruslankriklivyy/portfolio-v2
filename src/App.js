@@ -49,7 +49,7 @@ function App() {
     <>
       <div className="social">
         <nav>
-          <a href="https://github.com/ruslankrilkivyy">
+          <a href="https://github.com/ruslankriklivyy">
             <img src={githubSvg} alt="githubSvg" />
           </a>
           <a href="https://www.instagram.com/_ruslan.kriklivyy/?hl=ru">
@@ -143,8 +143,8 @@ function App() {
                 <h1 className="promo__title">Ruslan Kriklivyy.</h1>
                 <h4 className="promo__subtitle">I build things for the web.</h4>
                 <p className="promo__text">
-                  I like to create web interfaces with React. If you are interested in me,
-                  take a look at examples of
+                  I like to create web interfaces with React. If you are interested in me, take a
+                  look at examples of
                   <Link to={'works'} smooth={true} offset={-150} duration={400}>
                     <a href="/">my work.</a>
                   </Link>

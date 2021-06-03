@@ -143,7 +143,7 @@ function App() {
                 <h1 className="promo__title">Ruslan Kriklivyy.</h1>
                 <h4 className="promo__subtitle">I build things for the web.</h4>
                 <p className="promo__text">
-                  I like to create web interfaces with React and Vue. If you are interested in me,
+                  I like to create web interfaces with React. If you are interested in me,
                   take a look at examples of
                   <Link to={'works'} smooth={true} offset={-150} duration={400}>
                     <a href="/">my work.</a>
@@ -199,7 +199,7 @@ function App() {
                 <div className="skills__item-info">HTML / CSS</div>
                 <div className="skills__item-info">SCSS / SASS</div>
                 <div className="skills__item-info">JavaScript(ES5+) / TypeScript</div>
-                <div className="skills__item-info">ReactJS / VueJS</div>
+                <div className="skills__item-info">ReactJS</div>
                 <div className="skills__item-info">
                   Redux / React-Redux / Redux Thunk / Redux Saga
                 </div>

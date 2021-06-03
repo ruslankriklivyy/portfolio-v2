@@ -95,7 +95,7 @@ function App() {
                     </ul>
                     <div className="social">
                       <nav>
-                        <a href="https://github.com/ruslankrilkivyy">
+                        <a href="https://github.com/ruslankriklivyy">
                           <img src={githubSvg} alt="githubSvg" />
                         </a>
                         <a href="https://www.instagram.com/_ruslan.kriklivyy/?hl=ru">

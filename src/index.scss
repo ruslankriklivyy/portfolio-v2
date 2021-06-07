@@ -363,8 +363,6 @@ html {
   .works__item:hover {
     outline-offset: 5px;
   }
-  .social nav a:focus {
-  }
   .social {
     display: none;
   }
@@ -372,6 +370,9 @@ html {
     display: block;
   }
   .works {
+    &__links a:focus {
+      outline: none;
+    }
     &__img {
       img {
         width: 100%;

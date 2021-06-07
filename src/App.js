@@ -265,38 +265,11 @@ function App() {
                   <img src={reactDogPng} alt="reactDogPng" />
                 </div>
               </a>
-              <a href="https://react-watch-movies.vercel.app/" className="works__item">
+              <a href="https://react-clothing-store.vercel.app/" className="works__item">
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>
-                  <img src={watchMoviesPng} alt="watchMoviesPng" />
+                  <img src={clothingStorePng} alt="clothingStorePng" />
                 </div>
-                <div className="works__info">
-                  <h2>Watch Movies!</h2>
-                  <div className="works__more-info">
-                    <p>
-                      You can search for movies, filter by genre and other types. You can also view
-                      information about the movie, such as the trailer, or read the description.
-                    </p>
-                  </div>
-                  <div className="works__tech">
-                    <div className="works__tech-item">ReactJS</div>
-                    <div className="works__tech-item">TypeScript</div>
-                    <div className="works__tech-item">Redux Toolkit</div>
-                    <div className="works__tech-item">TMDB API</div>
-                  </div>
-                  <div className="works__links">
-                    <a href="https://github.com/ruslankrilkivyy/react-watch-movies">
-                      <img src={githubSvg} alt="githubSvg" />
-                    </a>
-                    <a href="https://react-watch-movies.vercel.app/">
-                      <img src={linkSvg} alt="linkSvg" />
-                    </a>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="https://react-clothing-store.vercel.app/"
-                className="works__item works__item--reverse">
                 <div className="works__info">
                   <h2>Clothing Store</h2>
                   <div className="works__more-info">
@@ -323,9 +296,38 @@ function App() {
                     </a>
                   </div>
                 </div>
+              </a>
+              <a
+                href="https://react-anime-xi.vercel.app/"
+                className="works__item works__item--reverse">
+                <div className="works__info">
+                  <h2>AnimeList</h2>
+                  <div className="works__more-info">
+                    <p>
+                      In this project you can view all information about anime, you can add anime to
+                      several different types, such as add to watch later, etc.
+                    </p>
+                  </div>
+                  <div className="works__tech">
+                    <div className="works__tech-item">ReactJS</div>
+                    <div className="works__tech-item">TypeScript</div>
+                    <div className="works__tech-item">Redux Toolkit</div>
+                    <div className="works__tech-item">React Cookie</div>
+                    <div className="works__tech-item">Formik</div>
+                    <div className="works__tech-item">Kitsu API</div>
+                  </div>
+                  <div className="works__links">
+                    <a href="https://github.com/ruslankrilkivyy/react-anime">
+                      <img src={githubSvg} alt="githubSvg" />
+                    </a>
+                    <a href="https://react-anime-xi.vercel.app/">
+                      <img src={linkSvg} alt="linkSvg" />
+                    </a>
+                  </div>
+                </div>
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>
-                  <img src={clothingStorePng} alt="clothingStorePng" />
+                  <img src={reactAnimePng} alt="reactAnimePng" />
                 </div>
               </a>
               <a href="https://react-food.vercel.app/" className="works__item">
@@ -420,36 +422,34 @@ function App() {
                 </div>
               </a>
               <a
-                href="https://react-anime-xi.vercel.app/"
+                href="https://react-watch-movies.vercel.app/"
                 className="works__item works__item--reverse">
                 <div className="works__info">
-                  <h2>AnimeList</h2>
+                  <h2>Watch Movies!</h2>
                   <div className="works__more-info">
                     <p>
-                      In this project you can view all information about anime, you can add anime to
-                      several different types, such as add to watch later, etc.
+                      You can search for movies, filter by genre and other types. You can also view
+                      information about the movie, such as the trailer, or read the description.
                     </p>
                   </div>
                   <div className="works__tech">
                     <div className="works__tech-item">ReactJS</div>
                     <div className="works__tech-item">TypeScript</div>
                     <div className="works__tech-item">Redux Toolkit</div>
-                    <div className="works__tech-item">React Cookie</div>
-                    <div className="works__tech-item">Formik</div>
-                    <div className="works__tech-item">Kitsu API</div>
+                    <div className="works__tech-item">TMDB API</div>
                   </div>
                   <div className="works__links">
-                    <a href="https://github.com/ruslankrilkivyy/react-anime">
+                    <a href="https://github.com/ruslankrilkivyy/react-watch-movies">
                       <img src={githubSvg} alt="githubSvg" />
                     </a>
-                    <a href="https://react-anime-xi.vercel.app/">
+                    <a href="https://react-watch-movies.vercel.app/">
                       <img src={linkSvg} alt="linkSvg" />
                     </a>
                   </div>
                 </div>
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>
-                  <img src={reactAnimePng} alt="reactAnimePng" />
+                  <img src={watchMoviesPng} alt="watchMoviesPng" />
                 </div>
               </a>
               <a href="https://react-chat-lite.vercel.app/" className="works__item">

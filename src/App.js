@@ -8,6 +8,7 @@ import promoGif from './assets/promo.gif';
 import menuSvg from './assets/menu.svg';
 import closeSvg from './assets/close.svg';
 
+import subsManagerPng from './assets/subs-manager-img.png';
 import watchMoviesPng from './assets/watchmovies.png';
 import clothingStorePng from './assets/react-clothing-store.png';
 import reactFoodPng from './assets/react-food.png';
@@ -205,6 +206,7 @@ function App() {
                 </div>
                 <div className="skills__item-info">Redux Toolkit</div>
                 <div className="skills__item-info">MobX</div>
+                <div className="skills__item-info">Effector</div>
                 <div className="skills__item-info">react-mobx-lite</div>
                 <div className="skills__item-info">Formik</div>
                 <div className="skills__item-info">NextJS</div>
@@ -391,11 +393,41 @@ function App() {
                   <img src={reactGamesPng} alt="reactGamesPng" />
                 </div>
               </a>
-              <a href="https://next-movies-tau.vercel.app/" className="works__item">
+              <a href="https://vibrant-villani-602451.netlify.app/" className="works__item">
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>
-                  <img src={nextMoviesPng} alt="nextMoviesPng" />
+                  <img src={subsManagerPng} alt="subsManagerPng" />
                 </div>
+                <div className="works__info">
+                  <h2>Subscriptions manager</h2>
+                  <div className="works__more-info">
+                    <p>
+                      In this project I learned the basics of the effector. You can add
+                      subscriptions, set their color, price, etc. You will also see a graphical
+                      display of your spending from your paycheck
+                    </p>
+                  </div>
+                  <div className="works__tech">
+                    <div className="works__tech-item">ReactJS</div>
+                    <div className="works__tech-item">TypeScript</div>
+                    <div className="works__tech-item">Effector</div>
+                    <div className="works__tech-item">SCSS Modules</div>
+                    <div className="works__tech-item">react-colorful</div>
+                    <div className="works__tech-item">uuid</div>
+                  </div>
+                  <div className="works__links">
+                    <a href="https://github.com/ruslankriklivyy/react-subscription-manager">
+                      <img src={githubSvg} alt="githubSvg" />
+                    </a>
+                    <a href="https://vibrant-villani-602451.netlify.app/">
+                      <img src={linkSvg} alt="linkSvg" />
+                    </a>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://next-movies-tau.vercel.app/"
+                className="works__item works__item--reverse">
                 <div className="works__info">
                   <h2>Next Movies!</h2>
                   <div className="works__more-info">
@@ -420,10 +452,16 @@ function App() {
                     </a>
                   </div>
                 </div>
+                <div className="works__img">
+                  <div className="works__img-wrapper"></div>
+                  <img src={nextMoviesPng} alt="nextMoviesPng" />
+                </div>
               </a>
-              <a
-                href="https://react-watch-movies.vercel.app/"
-                className="works__item works__item--reverse">
+              <a href="https://react-watch-movies.vercel.app/" className="works__item">
+                <div className="works__img">
+                  <div className="works__img-wrapper"></div>
+                  <img src={watchMoviesPng} alt="watchMoviesPng" />
+                </div>
                 <div className="works__info">
                   <h2>Watch Movies!</h2>
                   <div className="works__more-info">
@@ -447,16 +485,10 @@ function App() {
                     </a>
                   </div>
                 </div>
-                <div className="works__img">
-                  <div className="works__img-wrapper"></div>
-                  <img src={watchMoviesPng} alt="watchMoviesPng" />
-                </div>
               </a>
-              <a href="https://react-chat-lite.vercel.app/" className="works__item">
-                <div className="works__img">
-                  <div className="works__img-wrapper"></div>
-                  <img src={reactChatPng} alt="reactChatPng" />
-                </div>
+              <a
+                href="https://react-chat-lite.vercel.app/"
+                className="works__item works__item--reverse">
                 <div className="works__info">
                   <h2>React Chat Lite</h2>
                   <div className="works__more-info">
@@ -480,6 +512,10 @@ function App() {
                       <img src={linkSvg} alt="linkSvg" />
                     </a>
                   </div>
+                </div>
+                <div className="works__img">
+                  <div className="works__img-wrapper"></div>
+                  <img src={reactChatPng} alt="reactChatPng" />
                 </div>
               </a>
               <div className="works__soon">I will do another project soon...</div>

@@ -108,7 +108,7 @@ function App() {
                       </nav>
                     </div>
                   </nav>
-                  <Button href="https://www.work.ua/ru/jobseeker/my/resumes/view/?id=6985575">
+                  <Button href="https://www.work.ua/ru/resumes/6985575/">
                     Resume
                   </Button>
                 </div>

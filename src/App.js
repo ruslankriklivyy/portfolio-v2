@@ -17,6 +17,7 @@ import nextMoviesPng from './assets/nextMovies.png';
 import reactChatPng from './assets/reactChat.png';
 import reactAnimePng from './assets/react-animlist.png';
 import reactDogPng from './assets/react-dogs.png';
+import blogPng from './assets/blog.png';
 
 import { Link } from 'react-scroll';
 import React from 'react';
@@ -108,9 +109,7 @@ function App() {
                       </nav>
                     </div>
                   </nav>
-                  <Button href="https://www.work.ua/ru/resumes/6985575/">
-                    Resume
-                  </Button>
+                  <Button href="https://www.work.ua/ru/resumes/6985575/">Resume</Button>
                 </div>
               )}
               <div className="header__right">
@@ -210,10 +209,12 @@ function App() {
                 <div className="skills__item-info">react-mobx-lite</div>
                 <div className="skills__item-info">Formik</div>
                 <div className="skills__item-info">NextJS</div>
+                <div className="skills__item-info">GatsbyJS</div>
               </div>
               <div className="skills__item">
                 <h2>Other Skills</h2>
                 <div className="skills__item-info">Git / Github</div>
+                <div className="skills__item-info">GraphQL</div>
                 <div className="skills__item-info">axios</div>
                 <div className="skills__item-info">FireBase</div>
                 <div className="skills__item-info">React Cookie</div>
@@ -516,6 +517,35 @@ function App() {
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>
                   <img src={reactChatPng} alt="reactChatPng" />
+                </div>
+              </a>
+              <a href="https://kriklivyy-blog.vercel.app/" className="works__item">
+                <div className="works__img">
+                  <div className="works__img-wrapper"></div>
+                  <img src={blogPng} alt="blogPng" />
+                </div>
+                <div className="works__info">
+                  <h2>Kriklivyy Blog</h2>
+                  <div className="works__more-info">
+                    <p>
+                      My blog made with the help of Gatsby. You can leave comments, read my thoughts
+                      on development, and much more
+                    </p>
+                  </div>
+                  <div className="works__tech">
+                    <div className="works__tech-item">ReactJS</div>
+                    <div className="works__tech-item">GatsbyJs</div>
+                    <div className="works__tech-item">GraphQL</div>
+                    <div className="works__tech-item">Markdown</div>
+                  </div>
+                  <div className="works__links">
+                    <a href="https://github.com/ruslankriklivyy/kriklivyy-blog">
+                      <img src={githubSvg} alt="githubSvg" />
+                    </a>
+                    <a href="https://kriklivyy-blog.vercel.app/">
+                      <img src={linkSvg} alt="linkSvg" />
+                    </a>
+                  </div>
                 </div>
               </a>
               <div className="works__soon">I will do another project soon...</div>

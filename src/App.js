@@ -2,9 +2,8 @@ import Button from './components/Button';
 import githubSvg from './assets/github.svg';
 import instagramSvg from './assets/instagram.svg';
 import telegramSvg from './assets/telegram.svg';
-import imJpg from './assets/im.jpg';
+import imJpg from './assets/ruslan.jpg';
 import linkSvg from './assets/link.svg';
-import promoGif from './assets/promo.gif';
 import menuSvg from './assets/menu.svg';
 import closeSvg from './assets/close.svg';
 
@@ -143,8 +142,8 @@ function App() {
                 <h1 className="promo__title">Ruslan Kriklivyy.</h1>
                 <h4 className="promo__subtitle">I build things for the web.</h4>
                 <p className="promo__text">
-                  I like to create web interfaces with React. If you are interested in me, take a
-                  look at examples of
+                  I like to create web interfaces with ReactJS and VueJS. If you are interested in
+                  me, take a look at examples of
                   <Link to={'works'} smooth={true} offset={-150} duration={400}>
                     <a href="/">my work.</a>
                   </Link>
@@ -199,10 +198,8 @@ function App() {
                 <div className="skills__item-info">HTML / CSS</div>
                 <div className="skills__item-info">SCSS / SASS</div>
                 <div className="skills__item-info">JavaScript(ES5+) / TypeScript</div>
-                <div className="skills__item-info">ReactJS</div>
-                <div className="skills__item-info">
-                  Redux / React-Redux / Redux Thunk / Redux Saga
-                </div>
+                <div className="skills__item-info">ReactJS / VueJS</div>
+                <div className="skills__item-info">Redux / Redux Thunk / Redux Saga / Vuex</div>
                 <div className="skills__item-info">Redux Toolkit</div>
                 <div className="skills__item-info">MobX</div>
                 <div className="skills__item-info">Effector</div>

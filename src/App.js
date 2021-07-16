@@ -17,6 +17,7 @@ import reactChatPng from './assets/reactChat.png';
 import reactAnimePng from './assets/react-animlist.png';
 import reactDogPng from './assets/react-dogs.png';
 import blogPng from './assets/blog.png';
+import weatherAppPng from './assets/weather-app.png';
 
 import { Link } from 'react-scroll';
 import React from 'react';
@@ -485,35 +486,35 @@ function App() {
                 </div>
               </a>
               <a
-                href="https://react-chat-lite.vercel.app/"
+                href="https://vue3-weather-app.netlify.app/"
                 className="works__item works__item--reverse">
                 <div className="works__info">
-                  <h2>React Chat Lite</h2>
+                  <h2>Weather App</h2>
                   <div className="works__more-info">
                     <p>
-                      This is a real time chat room made with firebase. You can login via google and
-                      chat in real time
+                      See the weather forecast for the week and many other indicators, such as wind
+                      speed, humidity, or visibility. There are other options as well
                     </p>
                   </div>
                   <div className="works__tech">
-                    <div className="works__tech-item">ReactJS</div>
-                    <div className="works__tech-item">TypeScript</div>
-                    <div className="works__tech-item">Firebase</div>
-                    <div className="works__tech-item">SCSS Modules</div>
-                    <div className="works__tech-item">React Context</div>
+                    <div className="works__tech-item">VueJS</div>
+                    <div className="works__tech-item">JavaScript</div>
+                    <div className="works__tech-item">Vuex</div>
+                    <div className="works__tech-item">SCSS</div>
+                    <div className="works__tech-item">vue-debounce</div>
                   </div>
                   <div className="works__links">
-                    <a href="https://github.com/ruslankrilkivyy/react-chat-lite">
+                    <a href="https://github.com/ruslankriklivyy/vue-weather-app">
                       <img src={githubSvg} alt="githubSvg" />
                     </a>
-                    <a href="https://react-chat-lite.vercel.app/">
+                    <a href="https://vue3-weather-app.netlify.app/">
                       <img src={linkSvg} alt="linkSvg" />
                     </a>
                   </div>
                 </div>
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>
-                  <img src={reactChatPng} alt="reactChatPng" />
+                  <img src={weatherAppPng} alt="weatherAppPng" />
                 </div>
               </a>
               <a href="https://kriklivyy-blog.vercel.app/" className="works__item">

@@ -13,7 +13,7 @@ import clothingStorePng from './assets/react-clothing-store.png';
 import reactFoodPng from './assets/react-food.png';
 import reactGamesPng from './assets/react-games.png';
 import nextMoviesPng from './assets/nextMovies.png';
-import reactChatPng from './assets/reactChat.png';
+import nextRGXPPng from './assets/nextRGXP.png';
 import reactAnimePng from './assets/react-animlist.png';
 import reactDogPng from './assets/react-dogs.png';
 import blogPng from './assets/blog.png';
@@ -425,35 +425,32 @@ function App() {
                 </div>
               </a>
               <a
-                href="https://next-movies-tau.vercel.app/"
+                href="https://romantic-volhard-70e4b0.netlify.app/"
                 className="works__item works__item--reverse">
                 <div className="works__info">
-                  <h2>Next Movies!</h2>
+                  <h2>Next RGXP!</h2>
                   <div className="works__more-info">
-                    <p>
-                      In this project I implemented SSR on React, the same WatchMovies, only using a
-                      cool technology called NextJS
-                    </p>
+                    <p>A collection of regular expressions for JavaScript</p>
                   </div>
                   <div className="works__tech">
                     <div className="works__tech-item">ReactJS</div>
                     <div className="works__tech-item">TypeScript</div>
                     <div className="works__tech-item">NextJS</div>
+                    <div className="works__tech-item">Redux Toolkit</div>
                     <div className="works__tech-item">SCSS Modules</div>
-                    <div className="works__tech-item">TMDB API</div>
                   </div>
                   <div className="works__links">
-                    <a href="https://github.com/ruslankrilkivyy/next-movies">
+                    <a href="https://github.com/ruslankriklivyy/next-rgxp">
                       <img src={githubSvg} alt="githubSvg" />
                     </a>
-                    <a href="https://next-movies-tau.vercel.app/">
+                    <a href="https://romantic-volhard-70e4b0.netlify.app/">
                       <img src={linkSvg} alt="linkSvg" />
                     </a>
                   </div>
                 </div>
                 <div className="works__img">
                   <div className="works__img-wrapper"></div>
-                  <img src={nextMoviesPng} alt="nextMoviesPng" />
+                  <img src={nextRGXPPng} alt="nextRGXPPng" />
                 </div>
               </a>
               <a href="https://react-watch-movies.vercel.app/" className="works__item">

@@ -205,7 +205,7 @@ function App() {
                 <div className="skills__item-info">MobX</div>
                 <div className="skills__item-info">Effector</div>
                 <div className="skills__item-info">react-mobx-lite</div>
-                <div className="skills__item-info">Formik</div>
+                <div className="skills__item-info">Formik / react-hook-form & Yup</div>
                 <div className="skills__item-info">NextJS</div>
                 <div className="skills__item-info">GatsbyJS</div>
               </div>

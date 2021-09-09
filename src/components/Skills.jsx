@@ -38,7 +38,6 @@ const Skills = () => {
             <div className="skills__item-info">Gulp</div>
           </div>
         </div>
-        <div className="skills__more">I will soon learn something new...</div>
       </div>
     </section>
   );

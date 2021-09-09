@@ -58,7 +58,6 @@ const Works = () => {
               </a>
             ),
           )}
-          <div className="works__soon">I will do another project soon...</div>
         </div>
       </div>
     </section>

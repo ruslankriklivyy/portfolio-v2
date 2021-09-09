@@ -99,10 +99,6 @@ section {
         transform: translateY(-3px);
         opacity: 1;
       }
-      &:focus {
-        outline: 2px dashed #64ffda;
-        outline-offset: 10px;
-      }
       img {
         width: 20px;
         height: 20px;

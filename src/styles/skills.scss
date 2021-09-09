@@ -21,8 +21,7 @@
     padding: 20px;
     transition: all 0.2s ease;
     &:hover {
-      outline: 2px dashed #64ffda;
-      border-color: transparent;
+      border: 2px dashed #64ffda;
       background: rgba($color: #64ffda, $alpha: 0.1);
     }
     h2 {

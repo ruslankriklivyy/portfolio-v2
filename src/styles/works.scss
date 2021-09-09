@@ -13,13 +13,14 @@
     cursor: default;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     transition: all 0.2s ease;
     border-radius: 4px;
+    padding: 10px;
     border: 2px dashed transparent;
     &:hover {
       border-color: #64ffda;
-      padding: 10px;
+
       .works__img-wrapper {
         background: rgba($color: #0a192f, $alpha: 0);
       }

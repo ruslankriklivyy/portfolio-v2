@@ -339,6 +339,10 @@ html {
       &--reverse {
         flex-direction: column-reverse;
       }
+      .works__info {
+        margin-bottom: 20px;
+        margin-top: 0;
+      }
     }
     &__img {
       img {
@@ -382,7 +386,14 @@ html {
       width: 100%;
     }
   }
+  .progress-container {
+    top: 65px;
+  }
   .header {
+    height: 65px;
+    &__inner {
+      padding-top: 10px;
+    }
     &__right {
       display: none;
     }

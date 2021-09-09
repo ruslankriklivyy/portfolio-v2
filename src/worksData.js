@@ -60,8 +60,8 @@ export const worksItems = [
     name: 'Games!',
     poster: reactGamesPng,
     reverse: true,
-    linkToLive: 'https://react-dogs-theta.vercel.app/',
-    linkToGitHub: 'https://github.com/ruslankrilkivyy/react-dogs',
+    linkToLive: 'http://react-games-git-main-ruslankrilkivyy.vercel.app/',
+    linkToGitHub: 'https://github.com/ruslankriklivyy/react-games',
     description: `This was my first experience using Redux Saga, in this project I relayed the
   registration through Google and Githab. Here you can view information about any
   game, add desired games and see what stores are available for the game`,

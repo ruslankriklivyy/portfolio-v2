@@ -1,5 +1,5 @@
 import subsManagerPng from './assets/subs-manager-img.png';
-import watchMoviesPng from './assets/watchmovies.png';
+import watchMoviesPng from './assets/nuxtMovies.png';
 import clothingStorePng from './assets/react-clothing-store.png';
 import reactFoodPng from './assets/react-food.png';
 import reactGamesPng from './assets/react-games.png';
@@ -94,11 +94,11 @@ export const worksItems = [
     name: 'Watch Movies!',
     poster: watchMoviesPng,
     reverse: false,
-    linkToLive: 'https://react-watch-movies.vercel.app/',
-    linkToGitHub: 'https://github.com/ruslankrilkivyy/react-watch-movies',
+    linkToLive: 'https://nuxt-movies-lemon.vercel.app/',
+    linkToGitHub: 'https://github.com/ruslankriklivyy/nuxt-movies',
     description: `You can search for movies, filter by genre and other types. You can also view
   information about the movie, such as the trailer, or read the description.`,
-    workTech: ['ReactJS', 'TypeScript', 'Redux Toolkit', 'TMDB API'],
+    workTech: ['VueJS', 'TypeScript', 'NuxtJS', 'TMDB API'],
   },
   {
     id: 9,

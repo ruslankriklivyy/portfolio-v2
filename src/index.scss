@@ -283,23 +283,13 @@ html {
 }
 
 @media (max-width: 1600px) {
-  .promo {
-    box-shadow: inset 0 -100px 400px 320px rgba(10, 25, 47, 1);
-  }
   .about {
     width: 70%;
   }
 }
 
-@media (max-width: 1400px) {
-  .promo {
-    box-shadow: inset 0 -100px 400px 350px rgba(10, 25, 47, 1);
-  }
-}
-
 @media (max-width: 1200px) {
   .about {
-    padding: 50px 0;
     height: 100%;
   }
   .skills {
@@ -307,7 +297,6 @@ html {
     height: 100%;
   }
   .promo {
-    box-shadow: inset 0 -220px 400px 320px rgba(10, 25, 47, 1);
     &__box {
       text-align: center;
       width: 100%;
@@ -537,7 +526,6 @@ html {
     }
   }
   .promo {
-    box-shadow: inset 0 -100px 400px 140px rgba(10, 25, 47, 1);
     &__title {
       font-size: 40px;
       margin: 15px 0;

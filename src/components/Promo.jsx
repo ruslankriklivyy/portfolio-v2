@@ -5,6 +5,7 @@ import { Button } from '.';
 const Promo = () => {
   return (
     <section className="promo" id="promo">
+      <div className="promo-blockout"></div>
       <div className="container">
         <div className="promo__wrapper">
           <div className="promo__box">

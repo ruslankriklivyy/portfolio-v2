@@ -6,7 +6,7 @@ import reactGamesPng from './assets/react-games.png';
 import nextRGXPPng from './assets/nextRGXP.png';
 import reactAnimePng from './assets/react-animlist.png';
 import reactDogPng from './assets/react-dogs.png';
-import blogPng from './assets/blog.png';
+import blogPng from './assets/blog-v2.png';
 import weatherAppPng from './assets/weather-app.png';
 
 export const worksItems = [
@@ -116,10 +116,10 @@ export const worksItems = [
     name: 'Kriklivyy Blog',
     poster: blogPng,
     reverse: false,
-    linkToLive: 'https://kriklivyy-blog.vercel.app/',
-    linkToGitHub: 'https://github.com/ruslankriklivyy/kriklivyy-blog',
-    description: `My blog made with the help of Gatsby. You can leave comments, read my thoughts on
+    linkToLive: 'https://kriklivyy-blog-v2.netlify.app/',
+    linkToGitHub: 'https://github.com/ruslankriklivyy/kriklivvy-blog-v2',
+    description: `My blog made with the help of NextJS. You can leave comments, read my thoughts on
   development, and much more`,
-    workTech: ['ReactJS', 'GatsbyJs', 'GraphQL', 'Markdown'],
+    workTech: ['ReactJS', 'NextJS', 'TypeScript', 'Markdown', 'Gitalk'],
   },
 ];

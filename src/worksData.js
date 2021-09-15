@@ -31,7 +31,7 @@ export const worksItems = [
     description: `I was inspired by the site of the famous blogger Itpedia, and decided to make his
   clothing store site in React and TypeScript. Here you can browse products, add to
   cart, change the size of clothes or the number of clothes added, and much more.`,
-    workTech: ['ReactJS', 'TypeScript', 'Styled Components', 'Formik', 'Redux / Redux Thunk'],
+    workTech: ['ReactJS', 'TypeScript', 'Styled Components', 'Formik', 'Redux/Redux Thunk'],
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ export const worksItems = [
     linkToGitHub: 'https://github.com/ruslankrilkivyy/react-food',
     description: `This was my first experience using MobX, here you can add the food of your choice
   to the basket, as well as change the quantity, etc.`,
-    workTech: ['ReactJS', 'TypeScript', 'Mobx / react-mobx-lite'],
+    workTech: ['ReactJS', 'TypeScript', 'Mobx/react-mobx-lite'],
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ export const worksItems = [
     description: `This was my first experience using Redux Saga, in this project I relayed the
   registration through Google and Githab. Here you can view information about any
   game, add desired games and see what stores are available for the game`,
-    workTech: ['ReactJS', 'TypeScript', 'Redux / Redux Saga', 'FireBase', 'RAWG API'],
+    workTech: ['ReactJS', 'TypeScript', 'Redux/Redux Saga', 'FireBase', 'RAWG API'],
   },
   {
     id: 6,
@@ -77,7 +77,7 @@ export const worksItems = [
     description: `In this project I learned the basics of the effector. You can add subscriptions,
   set their color, price, etc. You will also see a graphical display of your
   spending from your paycheck`,
-    workTech: ['ReactJS', 'TypeScript', 'Effector', 'CSS / SCSS Modules', 'react-colorful', 'uuid'],
+    workTech: ['ReactJS', 'TypeScript', 'Effector', 'CSS/SCSS Modules', 'react-colorful', 'uuid'],
   },
   {
     id: 7,
@@ -87,7 +87,7 @@ export const worksItems = [
     linkToLive: 'https://romantic-volhard-70e4b0.netlify.app/',
     linkToGitHub: 'https://github.com/ruslankriklivyy/next-rgxp',
     description: `A collection of regular expressions for JavaScript`,
-    workTech: ['ReactJS', 'TypeScript', 'NextJS', 'Redux Toolkit', 'CSS / SCSS Modules'],
+    workTech: ['ReactJS', 'TypeScript', 'NextJS', 'Redux Toolkit', 'CSS/SCSS Modules'],
   },
   {
     id: 8,

@@ -35,6 +35,7 @@
     &:hover::after {
       bottom: -15px;
       right: -15px;
+      box-shadow: 0px 0px 30px rgba($color: #64ffda, $alpha: 0.3);
     }
   }
   &__img-wrapper {

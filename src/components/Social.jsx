@@ -11,7 +11,7 @@ const Social = () => {
         <a href="https://github.com/ruslankriklivyy">
           <img src={githubSvg} alt="githubSvg" />
         </a>
-        <a href="https://www.instagram.com/_ruslan.kriklivyy/?hl=ru">
+        <a href="https://www.instagram.com/_ruslan.kriklivyi/">
           <img src={instagramSvg} alt="instagramSvg" />
         </a>
         <a href="https://t.me/ruslankriklivy">

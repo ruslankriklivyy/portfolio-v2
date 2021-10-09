@@ -5,7 +5,8 @@
   left: 0;
   z-index: 500;
   height: 80px;
-  background: rgba($color: #0a192f, $alpha: 0.9);
+  background: rgba($color: #0a192f, $alpha: 0.6);
+  backdrop-filter: blur(10px);
   &__inner {
     display: flex;
     height: 100%;

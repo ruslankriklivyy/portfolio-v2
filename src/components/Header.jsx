@@ -38,7 +38,9 @@ const Header = ({ onClose, setVisibleMenu, visibleMenu }) => {
               <nav className="nav">
                 <Menu />
               </nav>
-              <Button href="https://www.work.ua/ru/resumes/6985575/">Resume</Button>
+              <Button href="https://drive.google.com/file/d/19pN5JpPLuBJPk1IfZc3vPGQfvrzUFfX2/view">
+                Resume
+              </Button>
             </div>
           </div>
         </div>

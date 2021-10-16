@@ -1,7 +1,7 @@
 import React from 'react';
 import imJpg from '../assets/ruslan.jpg';
 
-const About = () => {
+export const About = () => {
   return (
     <section className="about" id="about">
       <div className="container">
@@ -32,5 +32,3 @@ const About = () => {
     </section>
   );
 };
-
-export default About;

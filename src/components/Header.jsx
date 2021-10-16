@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { Button, Menu, MobileMenu } from '.';
 
-const Header = ({ onClose, setVisibleMenu, visibleMenu }) => {
+import { MobileMenu } from './MobileMenu';
+import { Menu } from './Menu';
+import { Button } from './Button';
+
+export const Header = ({ onClose, setVisibleMenu, visibleMenu }) => {
   const [scrolled, setScrolled] = React.useState(0);
 
   const proggresScroll = React.useCallback(() => {
@@ -51,5 +54,3 @@ const Header = ({ onClose, setVisibleMenu, visibleMenu }) => {
     </>
   );
 };
-
-export default Header;

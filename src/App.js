@@ -1,5 +1,12 @@
 import React from 'react';
-import { Social, Header, Promo, About, Skills, Works, Contact } from './components';
+
+import { Social } from './components/Social';
+import { Header } from './components/Header';
+import { Promo } from './components/Promo';
+import { About } from './components/About';
+import { Skills } from './components/Skills';
+import { Works } from './components/Works';
+import { Contact } from './components/Contact';
 
 function App() {
   const [visibleMenu, setVisibleMenu] = React.useState(false);

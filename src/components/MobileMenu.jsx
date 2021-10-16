@@ -1,10 +1,13 @@
 import React from 'react';
 
-import { Button, Menu, Social } from '.';
+import { Menu } from './Menu';
+import { Social } from './Social';
+import { Button } from './Button';
+
 import menuSvg from '../assets/menu.svg';
 import closeSvg from '../assets/close.svg';
 
-const MobileMenu = ({ setVisibleMenu, visibleMenu, onClose }) => {
+export const MobileMenu = ({ setVisibleMenu, visibleMenu, onClose }) => {
   return (
     <>
       <button className="burger-menu" onClick={() => setVisibleMenu(true)}>
@@ -19,11 +22,11 @@ const MobileMenu = ({ setVisibleMenu, visibleMenu, onClose }) => {
             <Menu onClose={onClose} />
             <Social />
           </nav>
-          <Button href="https://www.work.ua/ru/resumes/6985575/">Resume</Button>
+          <Button href="https://drive.google.com/file/d/19pN5JpPLuBJPk1IfZc3vPGQfvrzUFfX2/view">
+            Resume
+          </Button>
         </div>
       )}
     </>
   );
 };
-
-export default MobileMenu;

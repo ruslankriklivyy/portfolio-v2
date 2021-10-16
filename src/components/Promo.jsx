@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { Button } from '.';
+import { Button } from './Button';
 
-const Promo = () => {
+export const Promo = () => {
   return (
     <section className="promo" id="promo">
       <div className="promo-blockout"></div>
@@ -28,5 +28,3 @@ const Promo = () => {
     </section>
   );
 };
-
-export default Promo;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-const Contact = () => {
+export const Contact = () => {
   return (
     <section className="contact">
       <div className="container">
@@ -33,5 +33,3 @@ const Contact = () => {
     </section>
   );
 };
-
-export default Contact;

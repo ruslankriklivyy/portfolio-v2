@@ -4,7 +4,7 @@ import { worksItems } from '../worksData';
 import githubSvg from '../assets/github.svg';
 import linkSvg from '../assets/link.svg';
 
-const Works = () => {
+export const Works = () => {
   return (
     <section className="works" id="works">
       <div className="container">
@@ -63,5 +63,3 @@ const Works = () => {
     </section>
   );
 };
-
-export default Works;

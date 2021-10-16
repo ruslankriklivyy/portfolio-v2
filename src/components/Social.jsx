@@ -4,7 +4,7 @@ import githubSvg from '../assets/github.svg';
 import instagramSvg from '../assets/instagram.svg';
 import telegramSvg from '../assets/telegram.svg';
 
-const Social = () => {
+export const Social = () => {
   return (
     <div className="social">
       <nav>
@@ -21,5 +21,3 @@ const Social = () => {
     </div>
   );
 };
-
-export default Social;

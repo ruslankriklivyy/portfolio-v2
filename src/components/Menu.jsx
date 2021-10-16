@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-const Menu = ({ onClose }) => {
+export const Menu = ({ onClose }) => {
   const menuitems = ['About', 'Skills', 'Works', 'Contact'];
 
   return (
@@ -22,5 +22,3 @@ const Menu = ({ onClose }) => {
     </ul>
   );
 };
-
-export default Menu;

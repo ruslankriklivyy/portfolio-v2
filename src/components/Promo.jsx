@@ -14,9 +14,9 @@ export const Promo = () => {
             <h4 className="promo__subtitle">I build things for the web.</h4>
             <p className="promo__text">
               I like to create web interfaces with ReactJS and VueJS. If you are interested in me,
-              take a look at examples of
+              take a look at examples of{' '}
               <Link to={'works'} smooth={true} offset={-150} duration={400}>
-                <a href="/">my work.</a>
+                my works
               </Link>
               <br></br> <br></br> If you have job offers then link to my email below, or you can
               write to me in other social networks (they are on the left).

@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Skills = () => {
   return (
-    <section className="skills" id="promo" skills>
+    <section className="skills" id="promo">
       <div className="container">
         <div className="inner">
           <div className="title">

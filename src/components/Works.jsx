@@ -41,12 +41,14 @@ export const Works = () => {
                     ))}
                   </div>
                   <div className="works__links">
-                    <a href={linkToGitHub}>
-                      <img src={githubSvg} alt="githubSvg" />
-                    </a>
-                    <a href={linkToLive}>
-                      <img src={linkSvg} alt="linkSvg" />
-                    </a>
+                    <object>
+                      <a href={linkToGitHub}>
+                        <img src={githubSvg} alt="githubSvg" />
+                      </a>
+                      <a href={linkToLive}>
+                        <img src={linkSvg} alt="linkSvg" />
+                      </a>
+                    </object>
                   </div>
                 </div>
                 {reverse ? (

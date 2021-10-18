@@ -48,8 +48,8 @@ export const Header = ({ onClose, setVisibleMenu, visibleMenu }) => {
           </div>
         </div>
       </header>
-      <div class="progress-container">
-        <div class="progress-bar" id="myBar" style={{ width: `${scrolled}%` }}></div>
+      <div className="progress-container">
+        <div className="progress-bar" id="myBar" style={{ width: `${scrolled}%` }}></div>
       </div>
     </>
   );

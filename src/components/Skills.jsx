@@ -5,7 +5,7 @@ export const Skills = () => {
     <section className="skills" id="promo">
       <div className="container">
         <div className="inner">
-          <div className="title">
+          <div className="title title--skills">
             <span>02.</span>
             <h2>My Skills</h2>
           </div>

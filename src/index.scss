@@ -64,6 +64,11 @@ section {
       width: 300px;
       height: 2px;
     }
+    &--skills {
+      &::after {
+        left: 205px;
+      }
+    }
   }
   h2 {
     font-weight: 600;

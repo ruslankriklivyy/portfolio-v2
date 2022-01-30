@@ -284,6 +284,15 @@ html {
   overflow: -moz-scrollbars-none;
 }
 
+.link {
+  color: #64ffda;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 @media (max-width: 1600px) {
   .about {
     width: 70%;

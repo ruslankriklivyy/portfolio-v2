@@ -14,9 +14,14 @@ export const About = () => {
         <div className="about__box">
           <div className="about__left">
             <p className="text">
-              I'm just a regular Internet guy. I want to develop as a developer, not only in
-              frontend, but also for example to try myself as a as a mobile app developer or try to
-              make native apps for PC. <br></br> <br></br> Experience: Worked as HTML/CSS coder at
+              I'm a Frontend developer, specializing in React and Vue. I also
+              have some experience in mobile development with React Native and
+              Flutter. <br></br> <br></br> Experience: currently working in a
+              cool it company{' '}
+              <a className="link" href="https://quartsoft.com/">
+                QuartSoft
+              </a>{' '}
+              as a Frontend developer (React, Vue). Worked as HTML/CSS coder at
               Sladko Digital, also had a few freelance jobs. <br></br>
               <br></br> If you made it here, thanks for your interest!
             </p>

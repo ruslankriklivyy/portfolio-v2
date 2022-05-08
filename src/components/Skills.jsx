@@ -13,18 +13,23 @@ export const Skills = () => {
         <div className="skills__box">
           <div className="skills__item">
             <h2>Frontend</h2>
-            <div className="skills__item-info">HTML/CSS</div>
-            <div className="skills__item-info">SCSS/SASS</div>
             <div className="skills__item-info">JavaScript(ES5+)/TypeScript</div>
             <div className="skills__item-info">ReactJS/VueJS</div>
             <div className="skills__item-info">Redux/Redux Thunk/Redux Saga/Vuex</div>
             <div className="skills__item-info">Redux Toolkit</div>
             <div className="skills__item-info">MobX</div>
             <div className="skills__item-info">Effector</div>
-            <div className="skills__item-info">react-mobx-lite</div>
             <div className="skills__item-info">Formik/react-hook-form & Yup</div>
             <div className="skills__item-info">NextJS</div>
             <div className="skills__item-info">GatsbyJS</div>
+          </div>
+          <div className="skills__item">
+            <h2>Backend</h2>
+            <div className="skills__item-info">Express.js</div>
+            <div className="skills__item-info">NestJS</div>
+            <div className="skills__item-info">MongoDB & mongoose</div>
+            <div className="skills__item-info">multer</div>
+            <div className="skills__item-info">JWT</div>
           </div>
           <div className="skills__item">
             <h2>Other Skills</h2>

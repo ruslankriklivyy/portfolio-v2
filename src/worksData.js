@@ -8,13 +8,26 @@ import reactAnimePng from './assets/react-animlist.png';
 import reactDogPng from './assets/react-dogs.png';
 import blogPng from './assets/blog-v2.png';
 import weatherAppPng from './assets/weather-app.png';
+import myMarkersPng from './assets/markers.png'
 
 export const worksItems = [
+  {
+    id: 11,
+    name: 'My Markers',
+    poster: myMarkersPng,
+    reverse: true,
+    linkToLive: 'https://my-markers-frontend.vercel.app/',
+    linkToGitHub: 'https://github.com/ruslankriklivyy/my-markers-frontend',
+    linkBackendGithub: 'https://github.com/ruslankriklivyy/my-markers-backend',
+    description: `In this app you can add dog photos to your favorites, sort them by various data,
+  upload your dog's photo and much more`,
+    workTech: ['ReactJS', 'TypeScript', 'MobX', 'Mapbox GL', 'NestJS', 'mongoDB'],
+  },
   {
     id: 1,
     name: 'React Dogs',
     poster: reactDogPng,
-    reverse: true,
+    reverse: false,
     linkToLive: 'https://react-dogs-theta.vercel.app/',
     linkToGitHub: 'https://github.com/ruslankrilkivyy/react-dogs',
     description: `In this app you can add dog photos to your favorites, sort them by various data,
@@ -25,7 +38,7 @@ export const worksItems = [
     id: 2,
     name: 'Clothing Store',
     poster: clothingStorePng,
-    reverse: false,
+    reverse: true,
     linkToLive: 'https://react-clothing-store.vercel.app/',
     linkToGitHub: 'https://github.com/ruslankrilkivyy/react-clothing-store',
     description: `I was inspired by the site of the famous blogger Itpedia, and decided to make his
@@ -33,17 +46,17 @@ export const worksItems = [
   cart, change the size of clothes or the number of clothes added, and much more.`,
     workTech: ['ReactJS', 'TypeScript', 'Styled Components', 'Formik', 'Redux/Redux Thunk'],
   },
-  {
-    id: 3,
-    name: 'AnimeList',
-    poster: reactAnimePng,
-    reverse: true,
-    linkToLive: 'https://react-anime-xi.vercel.app/',
-    linkToGitHub: 'https://github.com/ruslankrilkivyy/react-anime',
-    description: `In this project you can view all information about anime, you can add anime to
-  several different types, such as add to watch later, etc.`,
-    workTech: ['ReactJS', 'TypeScript', 'Redux Toolkit', 'React Cookie', 'Formik', 'Kitsu API'],
-  },
+  // {
+  //   id: 3,
+  //   name: 'AnimeList',
+  //   poster: reactAnimePng,
+  //   reverse: true,
+  //   linkToLive: 'https://react-anime-xi.vercel.app/',
+  //   linkToGitHub: 'https://github.com/ruslankrilkivyy/react-anime',
+  //   description: `In this project you can view all information about anime, you can add anime to
+  // several different types, such as add to watch later, etc.`,
+  //   workTech: ['ReactJS', 'TypeScript', 'Redux Toolkit', 'React Cookie', 'Formik', 'Kitsu API'],
+  // },
   {
     id: 4,
     name: 'DeliveryFood',
@@ -79,21 +92,21 @@ export const worksItems = [
   spending from your paycheck`,
     workTech: ['ReactJS', 'TypeScript', 'Effector', 'CSS/SCSS Modules', 'react-colorful', 'uuid'],
   },
-  {
-    id: 7,
-    name: 'Next RGXP!',
-    poster: nextRGXPPng,
-    reverse: true,
-    linkToLive: 'https://romantic-volhard-70e4b0.netlify.app/',
-    linkToGitHub: 'https://github.com/ruslankriklivyy/next-rgxp',
-    description: `A collection of regular expressions for JavaScript`,
-    workTech: ['ReactJS', 'TypeScript', 'NextJS', 'Redux Toolkit', 'CSS/SCSS Modules'],
-  },
+  // {
+  //   id: 7,
+  //   name: 'Next RGXP!',
+  //   poster: nextRGXPPng,
+  //   reverse: true,
+  //   linkToLive: 'https://romantic-volhard-70e4b0.netlify.app/',
+  //   linkToGitHub: 'https://github.com/ruslankriklivyy/next-rgxp',
+  //   description: `A collection of regular expressions for JavaScript`,
+  //   workTech: ['ReactJS', 'TypeScript', 'NextJS', 'Redux Toolkit', 'CSS/SCSS Modules'],
+  // },
   {
     id: 8,
     name: 'Watch Movies!',
     poster: watchMoviesPng,
-    reverse: false,
+    reverse: true,
     linkToLive: 'https://nuxt-movies-lemon.vercel.app/',
     linkToGitHub: 'https://github.com/ruslankriklivyy/nuxt-movies',
     description: `You can search for movies, filter by genre and other types. You can also view
@@ -104,22 +117,22 @@ export const worksItems = [
     id: 9,
     name: 'Weather App',
     poster: weatherAppPng,
-    reverse: true,
+    reverse: false,
     linkToLive: 'https://vue3-weather-app.netlify.app/',
     linkToGitHub: 'https://github.com/ruslankriklivyy/vue-weather-app',
     description: `See the weather forecast for the week and many other indicators, such as wind
   speed, humidity, or visibility. There are other options as well`,
     workTech: ['VueJS', 'JavaScript', 'Vuex', 'SCSS', 'vue-debounce'],
   },
-  {
-    id: 10,
-    name: 'Kriklivyy Blog',
-    poster: blogPng,
-    reverse: false,
-    linkToLive: 'https://kriklivyy-blog-v2.netlify.app/',
-    linkToGitHub: 'https://github.com/ruslankriklivyy/kriklivvy-blog-v2',
-    description: `My blog made with the help of NextJS. You can leave comments, read my thoughts on
-  development, and much more`,
-    workTech: ['ReactJS', 'NextJS', 'TypeScript', 'Markdown', 'Gitalk'],
-  },
+  // {
+  //   id: 10,
+  //   name: 'Kriklivyy Blog',
+  //   poster: blogPng,
+  //   reverse: false,
+  //   linkToLive: 'https://kriklivyy-blog-v2.netlify.app/',
+  //   linkToGitHub: 'https://github.com/ruslankriklivyy/kriklivvy-blog-v2',
+  //   description: `My blog made with the help of NextJS. You can leave comments, read my thoughts on
+  // development, and much more`,
+  //   workTech: ['ReactJS', 'NextJS', 'TypeScript', 'Markdown', 'Gitalk'],
+  // },
 ];

@@ -14,9 +14,9 @@ export const About = () => {
         <div className="about__box">
           <div className="about__left">
             <p className="text">
-              I'm a Frontend developer, specializing in React and Vue. I also
-              have some experience in mobile development with React Native and
-              Flutter. <br></br> <br></br> Experience: currently working in a
+              I am a web application developer, as well as a student.
+              I'm considering working only on a part-time basis. <br></br> <br></br> Experience: currently
+              working in a
               cool it company{' '}
               <a className="link" href="https://quartsoft.com/">
                 QuartSoft
@@ -29,7 +29,7 @@ export const About = () => {
           <div className="about__right">
             <div className="about__img-box">
               <div className="about__img-wrapper"></div>
-              <img src={imJpg} alt="imJpg" />
+              <img src={imJpg} alt="imJpg"/>
             </div>
           </div>
         </div>

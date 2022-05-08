@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-scroll';
-import { Button } from './Button';
+import {Link} from 'react-scroll';
+import {Button} from './Button';
 
 export const Promo = () => {
   return (
@@ -13,7 +13,8 @@ export const Promo = () => {
             <h1 className="promo__title">Ruslan Kriklivyy.</h1>
             <h4 className="promo__subtitle">I build things for the web.</h4>
             <p className="promo__text">
-              I like to create web interfaces with ReactJS and VueJS. If you are interested in me,
+              I like to create web interfaces with ReactJS and VueJS. I also know how to develop backend on ExpressJS /
+              NestJS technologies. If you are interested in me,
               take a look at examples of{' '}
               <Link to={'works'} smooth={true} offset={-150} duration={400}>
                 my works

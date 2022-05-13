@@ -1,11 +1,11 @@
 import React from 'react';
-import {Link} from 'react-scroll';
+import { Link } from 'react-scroll';
 
-import {MobileMenu} from './MobileMenu';
-import {Menu} from './Menu';
-import {Button} from './Button';
+import { MobileMenu } from './MobileMenu';
+import { Menu } from './Menu';
+import { Button } from './Button';
 
-export const Header = ({onClose, setVisibleMenu, visibleMenu}) => {
+export const Header = ({ onClose, setVisibleMenu, visibleMenu }) => {
   const [scrolled, setScrolled] = React.useState(0);
 
   const proggresScroll = React.useCallback(() => {
@@ -39,9 +39,9 @@ export const Header = ({onClose, setVisibleMenu, visibleMenu}) => {
             />
             <div className="header__right">
               <nav className="nav">
-                <Menu/>
+                <Menu />
               </nav>
-              <Button href="https://drive.google.com/file/d/1W4YKmqnRgqX_eP-ROwUkrR_8AP5S3DAq/view?usp=sharing">
+              <Button href="https://drive.google.com/file/d/1C3YWfsDzv0IG_m0Rokb7cTJ-gaijfRBD/view?usp=sharing">
                 Resume
               </Button>
             </div>
@@ -49,7 +49,7 @@ export const Header = ({onClose, setVisibleMenu, visibleMenu}) => {
         </div>
       </header>
       <div className="progress-container">
-        <div className="progress-bar" id="myBar" style={{width: `${scrolled}%`}}></div>
+        <div className="progress-bar" id="myBar" style={{ width: `${scrolled}%` }}></div>
       </div>
     </>
   );
